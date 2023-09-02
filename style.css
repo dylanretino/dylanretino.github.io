@@ -99,8 +99,8 @@ section {
 .container img {
   display: block;
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: 250px;
 }
 
 .container h1 {
@@ -218,4 +218,18 @@ section {
 
 #ContactMe .image-grid .image-item:hover {
   transform: scale(1.15);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* ::-webkit-scrollbar-track {
+  background: #c8f0ff;
+} */
+
+::-webkit-scrollbar-thumb {
+  background: #848aab;
+  border-radius: 15px;
 }
